@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    background-image: url("http://www.designbolts.com/wp-content/uploads/2013/02/45-Degree-lines-Grey-Seamless-Pattern-For-Website-Background.jpg");
+    background-image: url("../images/background1.png");
     min-height: 100%;
 }
 
@@ -45,18 +45,20 @@ body {
     border-top: 2px solid #cccccc;
 }
 
-#about-me {
+#center-header {
     font-size: 24px;
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    padding-bottom: 28px;
+    padding-bottom: 25px;
     border-bottom: 2px solid #dddddd;
 }
 
 #about-me-image {
     float: left;
-    padding: 0px 20px 20px 0px;
+    padding: 7px 20px 10px 0px;
+    height: 205px;
+    width: 205px;
 }
 
 #about-me-text {
@@ -64,6 +66,49 @@ body {
     font-size: 16px;
     line-height: 2;
     margin-top: 20px;
+}
+
+#contact-form-div {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-input {
+    width: auto;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 2px;
+    padding: 5px;
+    font-size: 14px;
+}
+
+#message-box {
+    max-width: 99%;
+    min-width: 99%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+#submit-button {
+    border: 0;
+    background: #4aaaa5;
+    margin-top: 15px;
+    padding: 12px;
+    font-size: 100%;
+    cursor: pointer;
+    width: 110px;
+    color: #ffffff;
+    
 }
 
 #center-div{
