@@ -10,6 +10,68 @@ body {
     min-height: 100%;
 }
 
+.portfolio-icon-div {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.portfolio-icons {
+    margin-top: 25px;
+    height: 250px;
+    width: 30%;
+}
+
+.portfolio-images {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    box-sizing: border-box;
+    border: 1px solid #4aaaa5;
+    border-radius: 5px;
+}
+
+.portfolio-icon-text {
+    color: #ffffff;
+    background: #4aaaa5;
+    position: relative;
+    bottom: 60px;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.menu {
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 28px;
+    color: #777777;
+}
+
+.menu-text {
+    text-decoration: none;
+    color: #777777;
+}
+
+.menu-text:hover {
+    color: #4aaaa5;
+}
+
+.text-input {
+    width: auto;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 2px;
+    padding: 5px;
+    font-size: 14px;
+}
+
 #top-background {
     height: 72px;
     background-color: #ffffff;
@@ -32,13 +94,9 @@ body {
     font-weight: bold;
 }
 
-.menu {
-    float: right;
-    font-family: Arial, Helvetica, sans-serif;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 28px;
-    color: #777777;
+#menu-mid {
+    border-left: 1px solid lightgrey; 
+    border-right: 1px solid lightgrey;
 }
 
 #center-background {
@@ -56,9 +114,13 @@ body {
 
 #about-me-image {
     float: left;
-    padding: 7px 20px 10px 0px;
-    height: 205px;
-    width: 205px;
+    margin: 7px 15px 5px 0px;
+    height: 175px;
+    width: 230px;
+    object-fit: cover;
+    box-sizing: border-box;
+    border: 1px solid #4aaaa5;
+    border-radius: 5px;
 }
 
 #about-me-text {
@@ -77,16 +139,6 @@ body {
 #contact-form {
     display: flex;
     flex-direction: column;
-}
-
-.text-input {
-    width: auto;
-    height: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    margin-top: 2px;
-    padding: 5px;
-    font-size: 14px;
 }
 
 #message-box {
@@ -120,40 +172,6 @@ body {
     color: #777777;
     font-size: 26px;
     padding: 30px;
-}
-
-.portfolio-icon-area {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-}
-
-.portfolio-icons {
-    margin-top: 25px;
-    height: 250px;
-    width: 30%;
-}
-
-.portfolio-images {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    box-sizing: border-box;
-    border: 1px solid #4aaaa5;
-    border-radius: 5px;
-}
-
-.portfolio-icon-text {
-    color: #ffffff;
-    background: #4aaaa5;
-    position: relative;
-    bottom: 60px;
-    text-align: center;
-    font-size: 20px;
-    width: 100%;
-    padding: 10px 0 10px 0;
 }
 
 #footer {
